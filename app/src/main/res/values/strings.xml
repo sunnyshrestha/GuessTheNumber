@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Guess The Number</string>
+    <string name="tvLowerRange">Lower Limit</string>
+    <string name="tvUpperRange">Upper Limit</string>
+    <string name="generate">Generate Random Number</string>
+</resources>
