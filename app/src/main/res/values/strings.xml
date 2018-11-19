@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Guess The Number</string>
-    <string name="tvLowerRange">Lower Limit</string>
-    <string name="tvUpperRange">Upper Limit</string>
+    <string name="tvLowerRange">First Number</string>
+    <string name="tvUpperRange">Second Number</string>
     <string name="generate">Generate Random Number</string>
-    <string name="nullEntry">Lower and Upper Range cannot be empty</string>
+    <string name="nullEntry">Number(s) cannot be emptuy</string>
+    <string name="notInteresting">Increase the range for an interesting round of game.</string>
+    <string name="cannotBeEqual">Two number cannot be equal.</string>
 </resources>
