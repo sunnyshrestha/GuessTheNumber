@@ -3,4 +3,5 @@
     <string name="tvLowerRange">Lower Limit</string>
     <string name="tvUpperRange">Upper Limit</string>
     <string name="generate">Generate Random Number</string>
+    <string name="nullEntry">Lower and Upper Range cannot be empty</string>
 </resources>
