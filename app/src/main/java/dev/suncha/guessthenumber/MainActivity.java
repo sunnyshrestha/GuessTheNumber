@@ -11,9 +11,9 @@ import android.widget.Toast;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-    EditText lowerEditText, upperEditText;
-    Button generatorButton;
-    int lowerNumber, higherNumber, randomNumber;    //Defining the variables
+    EditText lowerEditText, upperEditText,guessET;
+    Button generatorButton, guessButton;
+    int lowerNumber, higherNumber, randomNumber,guessEntry;    //Defining the variables
     private  static int OPTIMUM_RANGE=10;
 
     @Override
@@ -24,7 +24,9 @@ public class MainActivity extends AppCompatActivity {
         //Defining the views (Edit Texts and Buttons)
         lowerEditText = findViewById(R.id.editTextLower);
         upperEditText = findViewById(R.id.editTextHigher);
+        guessET = findViewById(R.id.guessET);
         generatorButton = findViewById(R.id.button);
+        guessButton = findViewById(R.id.guessButton);
 
         //This code gets triggered when the Generate Random Number button is clicked
         generatorButton.setOnClickListener(new View.OnClickListener() {
@@ -57,6 +59,17 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(),R.string.notInteresting,Toast.LENGTH_SHORT).show();
                     }
                 }
+            }
+        });
+
+        //This code gets triggered when the Check My Guess button is clicked
+        guessButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Check if guess entry is empty
+                //Check if guess is out of range
+                //If guess is in range, check if correct or not
+                //Set a counter to track number of guesses
             }
         });
 
