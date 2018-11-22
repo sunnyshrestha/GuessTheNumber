@@ -3,7 +3,10 @@
     <string name="tvLowerRange">First Number</string>
     <string name="tvUpperRange">Second Number</string>
     <string name="generate">Generate Random Number</string>
-    <string name="nullEntry">Number(s) cannot be emptuy</string>
+    <string name="nullEntry">Number(s) cannot be empty</string>
     <string name="notInteresting">Increase the range for an interesting round of game.</string>
     <string name="cannotBeEqual">Two number cannot be equal.</string>
+    <string name="check_my_guess">Check my guess</string>
+    <string name="your_guess">Your Guess</string>
+    <string name="generateRandomNumberFirst">Generate random number first!</string>
 </resources>

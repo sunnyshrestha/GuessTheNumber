@@ -66,13 +66,21 @@ public class MainActivity extends AppCompatActivity {
         guessButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //If random number has not been generated throw a toast
+                if(randomNumber==0){
+                    //Ask user to generate random number first
+                    toastToGenerateRandomNumber();
+                }
                 //Check if guess entry is empty
                 //Check if guess is out of range
                 //If guess is in range, check if correct or not
                 //Set a counter to track number of guesses
             }
         });
+    }
 
+    private void toastToGenerateRandomNumber() {
+        Toast.makeText(this,R.string.generateRandomNumberFirst,Toast.LENGTH_SHORT).show();
     }
 
     private int generateRandomNumber(int lowerNumber, int higherNumber) {
